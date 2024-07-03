@@ -52,11 +52,11 @@ This project is a Kanban board application built with React, Supabase, React Que
 
 ## Usage
 
-1. **Sign Up / Login**: Create an account or log in using the authentication form.
-2. 2. **Create Tasks**: Add new tasks to the "To Do" column.
-3. 3. **Move Tasks**: Drag and drop tasks between columns to update their status.
-4. 4. **Edit Tasks**: Click on a task to edit its details.
-5. 5. **Delete Tasks**: Remove tasks that are no longer needed.
+1.  **Sign Up / Login**: Create an account or log in using the authentication form.
+2.  **Create Tasks**: Add new tasks to the "To Do" column.
+3.  **Move Tasks**: Drag and drop tasks between columns to update their status.
+4.  **Edit Tasks**: Click on a task to edit its details.
+5.  **Delete Tasks**: Remove tasks that are no longer needed.
 
 ## Folder Structure
 
