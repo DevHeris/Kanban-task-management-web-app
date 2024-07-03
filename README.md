@@ -24,31 +24,26 @@ This project is a Kanban board application built with React, Supabase, React Que
 ## Installation
 
 1. Clone the repository:
-   ````bash
+   ```bash
        git clone https://github.com/DevHeris/Kanban-task-management-web-app.git
-
-               ```
-   ````
+   ```
 2. Install the dependencies:
-   ````bash
+   ```bash
        npm install
-           ```
-   ````
+   ```
 3. Configure Supabase:
    - Go to the [Supabase website](https://supabase.io/) and sign up for an account if you don't have one.
    - Create a new project in Supabase.
    - In the Supabase dashboard, go to the "Settings" tab and find your `API URL` and `anon key`.
    - Create a `.env` file in the root of your project and add the following environment variables, replacing `your-supabase-url` and `your-supabase-anon-key` with your actual Supabase credentials:
-   ````env
+   ```env
        REACT_APP_SUPABASE_URL=your-supabase-url
            REACT_APP_SUPABASE_ANON_KEY=your-supabase-anon-key
-               ```
-   ````
+   ```
 4. Start the development server:
-   ````bash
+   ```bash
        npm run dev
-           ```
-   ````
+   ```
 
 ## Usage
 
