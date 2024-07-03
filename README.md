@@ -63,7 +63,7 @@ src/
 ├── styles/             # Tailwind CSS styles
 ├── utils/              # Utility functions
 ├── App.js              # Main application component
-├── index.js            # Entry point
+├── main.js            # Entry point
 └── ...
 ```
 
