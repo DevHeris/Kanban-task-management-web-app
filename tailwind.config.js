@@ -3,8 +3,12 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      colors: {
-        'bg-light': '#ffffff',
+      backgroundColor: {
+        light: '#ffffff',
+        container: '#f4f7fd',
+      },
+      fontFamily: {
+        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
       },
     },
   },
