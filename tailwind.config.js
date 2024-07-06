@@ -3,6 +3,7 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      colors: { 'medium-grey-text': '#828fa3' },
       backgroundColor: {
         light: '#ffffff',
         container: '#f4f7fd',
