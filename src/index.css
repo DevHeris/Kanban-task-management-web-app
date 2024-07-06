@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #635fc7;
+    --primary-color-hover: #a8a4ff;
+    --secondary-color: rgba(99, 95, 199, 0.1);
+    --secondary-color-hover: rgba(99, 95, 199, 0.25);
+    --destructive-color: #ea5555;
+    --destructive-color-hover: #ff9898;
+
+    --white-background: #ffffff;
+    --medium-grey-text: #828fa3;
+    --body-background: #ffffff;
+    --label-color: #828fa3;
+    --primary-text: #000112;
+    --light-grey-background: #f4f7fd;
+    --sidebar-background: #ffffff;
+    --lines-color: #e4ebfa;
+    --add-column-background: linear-gradient(180deg, #e9effa 0%, rgba(233, 239, 250, 0.5) 100%);
+    --loader-primary: #20212c;
+    --loader-secondary: #3332;
+}
+
+:root.dark-mode {
+    --white-background: #20212c;
+    --body-background: #2b2c37;
+    --label-color: #ffffff;
+    --primary-text: #ffffff;
+    --light-grey-background: #20212c;
+    --sidebar-background: #2b2c37;
+    --lines-color: #3e3f4e;
+
+    --secondary-color: #fff;
+    --secondary-color-hover: #fff;
+    --add-column-background: linear-gradient(180deg, rgba(43, 44, 55, 0.25) 0%, rgba(43, 44, 55, 0.13) 100%);
+    --loader-primary: #fff;
+    --loader-secondary: #fff2;
+}
