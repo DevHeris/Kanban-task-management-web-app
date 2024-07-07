@@ -7,6 +7,7 @@ export default {
       backgroundColor: {
         light: '#ffffff',
         container: '#f4f7fd',
+        'blue-hover': '#635fc7',
       },
       fontFamily: {
         jakarta: ['Plus Jakarta Sans', 'sans-serif'],
