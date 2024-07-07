@@ -8,6 +8,7 @@ export default {
         light: '#ffffff',
         'light-blue': '#f4f7fd',
         blue: '#635fc7',
+        'blue-hover': '#a8a4ff',
       },
       fontFamily: {
         jakarta: ['Plus Jakarta Sans', 'sans-serif'],

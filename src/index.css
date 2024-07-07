@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .switch-toggle {
+        @apply relative inline-block w-12 h-6;
+    }
+
+    .slider {
+        @apply absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-blue transition-all duration-300 rounded-full;
+    }
+
+    .slider::before {
+        @apply absolute content-[''] h-4 w-4 left-1 bottom-1 bg-white transition-all duration-300 rounded-full;
+    }
+
+    input:checked+.slider {
+        @apply bg-blue;
+    }
+
+    input:checked+.slider::before {
+        @apply transform translate-x-6;
+    }
+}
+
 :root {
     --primary-color: #635fc7;
     --primary-color-hover: #a8a4ff;
