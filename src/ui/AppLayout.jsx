@@ -7,8 +7,8 @@ function AppLayout() {
     <section className="grid grid-cols-[16rem_1fr] grid-rows-[auto_1fr] h-screen bg-light">
       <Header />
       <Sidebar />
-      <main className="overflow-y-scroll pt-16 px-20 pb-24 bg-container">
-        {/* Container */}
+      <main className="overflow-y-scroll pt-16 px-20 pb-24 bg-light-blue">
+        {/* light-blue */}
         <div className="flex flex-col my-0 mx-auto gap-12 max-w-[120rem] ">
           <Outlet />
         </div>
