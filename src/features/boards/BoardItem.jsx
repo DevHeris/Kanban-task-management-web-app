@@ -15,7 +15,7 @@ function BoardItem({ boardName }) {
         }
       >
         <span>
-          {/* <img src="/src/assets/icon-board.svg" alt="icon board" /> */}
+          {/* <img src="/assets/icon-board.svg" alt="icon board" /> */}
           <svg
             width="16"
             height="16"

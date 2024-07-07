@@ -11,7 +11,7 @@ function BoardNav() {
       </nav>
       <li className="mr-4 transition-all delay-100 text-blue pl-7 py-3 text-base cursor-pointer rounded-r-full flex gap-3 items-center hover:bg-light-blue font-bold">
         <span>
-          <img src="/src/assets/icon-board.svg" alt="icon board" />
+          <img src="/assets/icon-board.svg" alt="icon board" />
         </span>
         <span>+ Create New Board</span>
       </li>

@@ -13,7 +13,7 @@ function Header() {
         </button>
         <div className="cursor-pointer">
           <img
-            src="/src/assets/icon-vertical-ellipsis.svg"
+            src="/assets/icon-vertical-ellipsis.svg"
             alt="vertical-ellipsis icon"
           />
         </div>

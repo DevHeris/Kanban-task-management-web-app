@@ -14,7 +14,7 @@ function Sidebar() {
         <li className="mr-4 mt-2 transition-all delay-100 text-medium-grey-text pl-7 py-3 text-base cursor-pointer rounded-r-full flex gap-3 items-center hover:text-blue hover:bg-light-blue font-bold">
           <div className="flex items-center gap-4">
             <span>
-              <img src="/src/assets/icon-hide-sidebar.svg" alt="" />
+              <img src="/assets/icon-hide-sidebar.svg" alt="" />
             </span>
             <span>Hide Sidebar</span>
           </div>
