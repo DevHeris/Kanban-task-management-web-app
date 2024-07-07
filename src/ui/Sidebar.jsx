@@ -4,7 +4,7 @@ import ThemeSwitch from './ThemeSwitch';
 
 function Sidebar() {
   return (
-    <aside className="grid grid-col row-span-full gap-12 pt-5 border border-grey-100 grid-rows-[.5fr_5fr_.5fr] items-start">
+    <aside className="grid grid-col row-span-full gap-12 pt-5 border border-gray-100 grid-rows-[.5fr_5fr_.5fr] items-start">
       <Logo />
       <div>
         <BoardNav />

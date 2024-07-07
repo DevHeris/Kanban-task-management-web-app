@@ -2,7 +2,7 @@ import { useParams } from 'react-router';
 
 function Header() {
   const params = useParams();
-  const boardName = params.boardId.replace('-', ' ');
+  const boardName = params.boardId?.replace('-', ' ');
 
   return (
     <header className=" py-3 px-10 border-b flex justify-between items-center">
