@@ -4,16 +4,17 @@ import Sidebar from './Sidebar';
 
 function AppLayout() {
   return (
-    <section className="grid grid-cols-[16rem_1fr] grid-rows-[auto_1fr] h-screen bg-light">
+    <div className="grid grid-rows-[1fr_auto]">
       <Header />
-      <Sidebar />
-      <main className="overflow-y-scroll pt-16 px-20 pb-24 bg-light-blue">
-        {/* light-blue */}
-        <div className="flex flex-col my-0 mx-auto gap-12 max-w-[120rem] ">
-          <Outlet />
-        </div>
-      </main>
-    </section>
+      <section className="grid grid-cols-[16rem_auto]  bg-light">
+        <Sidebar />
+        <main className="overflow-y-scroll pt-16 px-20 pb-24 bg-light-blue">
+          <div className="flex flex-col my-0 mx-auto gap-12 max-w-[120rem] ">
+            <Outlet />
+          </div>
+        </main>
+      </section>
+    </div>
   );
 }
 
